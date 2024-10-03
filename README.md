@@ -17,7 +17,7 @@ go get github.com/anacrolix/torrent
 To use the `torrentmeta` package, import it in your Go code:
 
 ```go
-import "github.com/yourusername/torrentmeta"
+import "github.com/cehbz/torrentmeta"
 ```
 
 ### Parsing Torrent Metadata
