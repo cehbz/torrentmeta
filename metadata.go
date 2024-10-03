@@ -15,8 +15,8 @@ type Metadata struct {
 	info     metainfo.Info
 }
 
-// NewTorrentMetadata parses the torrent data and returns a TorrentMetadata instance
-func NewTorrentMetadata(torrentData []byte) (*Metadata, error) {
+// NewMetadata parses the torrent data and returns a Metadata instance
+func NewMetadata(torrentData []byte) (*Metadata, error) {
 	metaInfo, err := metainfo.Load(bytes.NewReader(torrentData))
 	if err != nil {
 		return nil, fmt.Errorf("metainfo.Load error: %v", err)
