@@ -33,6 +33,11 @@ func NewMetadata(torrentData []byte) (*Metadata, error) {
 	}, nil
 }
 
+// Hash returns the infohash of the torrent
+func (tm *Metadata) Hash() string {
+	return tm.metaInfo.HashInfoBytes().HexString()
+}
+
 // Name returns the name of the torrent
 func (tm *Metadata) Name() string {
 	if tm.info.NameUtf8 != "" {
