@@ -1,8 +1,6 @@
 module github.com/cehbz/torrentmeta
 
-go 1.23
-
-toolchain go1.23.2
+go 1.25.0
 
 require github.com/anacrolix/torrent v1.57.1
 
@@ -18,8 +16,8 @@ require (
 	github.com/multiformats/go-multihash v0.2.3 // indirect
 	github.com/multiformats/go-varint v0.0.6 // indirect
 	github.com/spaolacci/murmur3 v1.1.0 // indirect
-	golang.org/x/crypto v0.21.0 // indirect
+	golang.org/x/crypto v0.52.0 // indirect
 	golang.org/x/exp v0.0.0-20240823005443-9b4947da3948 // indirect
-	golang.org/x/sys v0.18.0 // indirect
+	golang.org/x/sys v0.45.0 // indirect
 	lukechampine.com/blake3 v1.1.6 // indirect
 )
