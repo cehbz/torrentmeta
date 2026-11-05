@@ -2,13 +2,12 @@ module github.com/cehbz/torrentmeta
 
 go 1.25.0
 
-require github.com/anacrolix/torrent v1.57.1
+require github.com/anacrolix/torrent v1.61.1-0.20260911233437-76452a2c8a2f
 
 require (
-	github.com/anacrolix/generics v0.0.3-0.20240902042256-7fb2702ef0ca // indirect
+	github.com/anacrolix/generics v0.2.0 // indirect
 	github.com/anacrolix/missinggo v1.3.0 // indirect
-	github.com/anacrolix/missinggo/v2 v2.7.4 // indirect
-	github.com/bradfitz/iter v0.0.0-20191230175014-e8f45d346db8 // indirect
+	github.com/anacrolix/missinggo/v2 v2.11.0 // indirect
 	github.com/huandu/xstrings v1.3.2 // indirect
 	github.com/klauspost/cpuid/v2 v2.2.3 // indirect
 	github.com/minio/sha256-simd v1.0.0 // indirect
@@ -17,7 +16,7 @@ require (
 	github.com/multiformats/go-varint v0.0.6 // indirect
 	github.com/spaolacci/murmur3 v1.1.0 // indirect
 	golang.org/x/crypto v0.52.0 // indirect
-	golang.org/x/exp v0.0.0-20240823005443-9b4947da3948 // indirect
+	golang.org/x/exp v0.0.0-20251113190631-e25ba8c21ef6 // indirect
 	golang.org/x/sys v0.45.0 // indirect
 	lukechampine.com/blake3 v1.1.6 // indirect
 )
